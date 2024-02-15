@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Pacifico", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+  font-weight: 400;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.background-img {
+  height: 100vh;
+  width: 34.5vw;
+  background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 34.5vw, 100vh;
+}
+
+.black-bar {
+  width: 34.5vw;
+  background-color: black;
+  position: relative;
+  bottom: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.odin-face {
+  height: 20vh;
+}
+
+.left {
+  height: 100vh;
+  width: 34.5vw;
+}
+
+.black-bar-txt {
+  font-weight: 100;
+  font-size: 10rem;
+  font-family: "Pacifico", sans-serif;
+  color: white;
+}
+
+.right {
+  height: 100vh;
+  width: 65.5vw;
+}
