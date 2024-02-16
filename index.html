@@ -16,13 +16,16 @@
         </div>
       </div>
       <div class="right">
-        <p class="main-text">
-          This is not a real online service! You know you need something like
-          this in your life to help you realize your deepest dreams. Sign up
-          <i>now</i> to get started.
-        </p>
-        <p>You <i>know</i> you want to.</p>
+        <div class="main-txt-container">
+          <p class="main-text">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <i>now</i> to get started.
+          </p>
+          <p class="main-text-bottom">You <i>know</i> you want to.</p>
+        </div>
         <form action="/action_page.php" class="textboxes">
+          <p>Let`s do this!</p>
           <label for="fname">First name</label>
           <input type="text" name="fname" id="fname" /><br /><br />
           <label for="lname">Last name</label>
@@ -32,24 +35,16 @@
           <label for="phonenum">Phone number</label>
           <input type="number" name="phonenum" id="phonenum" />,<br />br
           <label for="password">Password</label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            aria-errormessage="*Passwords do not match"
-          />
+          <input type="password" name="password" id="password" />
           <br /><br />
           <label for="confirmpas">Confirm password</label>
-          <input
-            type="password"
-            name="confirmpas"
-            id="confirmpas"
-            aria-errormessage=""
-          />
+          <input type="password" name="confirmpas" id="confirmpas" />
         </form>
         <button class="crate-account">Crate Account</button>
-        <p class="end-para">Already have an account</p>
-        <button class="end-btn">Log in</button>
+        <div class="end-txt">
+          <p class="end-para">Already have an account?</p>
+          <button class="end-btn">Log in</button>
+        </div>
       </div>
     </main>
   </body>
